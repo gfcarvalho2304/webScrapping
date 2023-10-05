@@ -1,7 +1,7 @@
 from classificacao import extrair_classificacao
 from artilharia import extrair_artilharia
 import conexao
-from Functions.functions import retorna_rodada,enviar_email
+from functions import retorna_rodada,enviar_email
 
 #Busca o número da rodada atual
 num_rodada = retorna_rodada('https://ge.globo.com/futebol/brasileirao-serie-a/')
